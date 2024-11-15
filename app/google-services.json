@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "585650415931",
+    "project_id": "chat-kotlin-bd53e",
+    "storage_bucket": "chat-kotlin-bd53e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585650415931:android:3bf85e43d93d077ed52f1e",
+        "android_client_info": {
+          "package_name": "com.redsystemstudio.chat_kotlin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmT5HT7k-GKBG1aniQcULefe8MQmXhUng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

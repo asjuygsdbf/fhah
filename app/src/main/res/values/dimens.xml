@@ -1,0 +1,6 @@
+<resources>
+    <!-- Dimensiones base -->
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="icon_size">48dp</dimen>
+</resources> 

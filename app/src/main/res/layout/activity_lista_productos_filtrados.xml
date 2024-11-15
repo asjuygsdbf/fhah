@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:src="@drawable/logo_negocio1"/>
+
+        <LinearLayout
+            android:id="@+id/layoutAlertaStock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF6B6B"
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uno o varios de los productos se encuentran con una unidad o sin stock"
+                android:textColor="@android:color/white"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvInfoFiltros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Productos filtrados"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etBuscar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:drawableEnd="@android:drawable/ic_menu_search"
+            android:hint="Buscar producto"
+            android:padding="8dp"
+            android:textColor="#000000"
+            android:textColorHint="#757575"
+            android:background="@android:drawable/edit_text"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvProductosFiltrados"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:nestedScrollingEnabled="false"/>
+
+        <Button
+            android:id="@+id/btnRegresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regresar"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:backgroundTint="#FF6B6B"/>
+
+    </LinearLayout>
+</ScrollView> 
